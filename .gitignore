@@ -1,32 +1,20 @@
-# system
-.AppleDouble
-.DS_Store
-.LSOverride
-.Spotlight-V100
-.Trashes
-._*
-
-# editors
-CMakeLists.txt
-cmake-build-debug
-.idea
-.vscode
-*.sw[a-z]
-*~
-
-docs/build
-docs/_build
 node_modules
 src
-
-.cipd
 .gclient_entries
+npm-debug.log
 .gclient
 .sccache
-
-# logs and test results
-npm-debug.log
+**.sw[po]
+.vscode
+.cipd
+.idea
 network_log.json
 network-audit-results.json
 
-.npmrc
+# Rendered Sphinx files should be excluded from source control
+build
+_build
+
+# Clion files
+CMakeLists.txt
+cmake-build-debug
